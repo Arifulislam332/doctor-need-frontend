@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 * {
-  background: #f5f5f5;
+  /* background: #f5f5f5; */
   font-family: "Afacad Flux";
   font-style: normal;
 }
