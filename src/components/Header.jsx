@@ -20,7 +20,7 @@ const Header = () => {
           </div>
           <Link
             className="transition duration-300 ease-in-out hover:scale-105"
-            to="/my-appoinment"
+            to="/#speciality"
           >
             <Button className="rounded-full flex gap-2 items-center bg-white text-black sm:text-xl text-sm font-semibold hover:bg-white">
               Book Appoinment{" "}

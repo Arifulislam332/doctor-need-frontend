@@ -4,7 +4,7 @@ import ProfileMenu from "./ProfileMenu";
 
 const Navber = () => {
   return (
-    <div className="w-full sticky top-0 flex items-center shadow-md shadow-gray-200 h-24 px-10 sm:px-0 bg-white">
+    <div className="w-full sticky top-0 flex items-center shadow-md shadow-gray-300 h-24 px-10 sm:px-0 bg-white z-[100]">
       <div className="container mx-auto flex items-center justify-between bg-inherit">
         {/* LOGO LEFT */}
         <Link className="bg-inherit" to="/">
