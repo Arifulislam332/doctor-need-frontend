@@ -5,12 +5,12 @@ const Speciality = () => {
   return (
     <div
       id="speciality"
-      className="my-20 px-10 sm:px-0 container mx-auto items-center justify-items-center text-center gap-4"
+      className="mt-20 px-10 sm:px-0 container mx-auto items-center flex flex-col justify-items-center text-center gap-4"
     >
       <h1 className="text-3xl font-semibold text-gray-700">
         Find By Speciality
       </h1>
-      <p className="text-gray-500 sm:w-1/3">
+      <p className="text-gray-500 text-sm sm:w-1/3">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime Lorem,
         ipsum dolor. Lorem, ipsum.Lorem, ipsum.
       </p>

@@ -22,7 +22,7 @@ const ProfileMenu = () => {
               <AvatarImage src={assets.profile_pic} />
             </Avatar>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="font-medium bg-slate-100">
+          <DropdownMenuContent className="font-medium bg-slate-100 z-[101]">
             <DropdownMenuItem to="/my-profile" className="text-base">
               <Link to="/my-profile">My Profile</Link>
             </DropdownMenuItem>
