@@ -12,14 +12,17 @@ const Header = () => {
             Book Appoinment With Trusted Doctors
           </h1>
           <div className="flex items-center gap-3 md:flex-row text-white text-sm font-light">
-            <img className="w-28" src={assets.group_profiles} alt="" />
+            <img className="w-24" src={assets.group_profiles} alt="" />
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing Fuga nam error
               ex voluptates aperiam consequatur ratione
             </p>
           </div>
-          <Link>
-            <Button className="rounded-full bg-white text-black font-medium hover:bg-gray-200">
+          <Link
+            className="transition duration-300 ease-in-out hover:scale-105"
+            to="/my-appoinment"
+          >
+            <Button className="rounded-full flex gap-2 items-center bg-white text-black sm:text-xl text-sm font-semibold hover:bg-white">
               Book Appoinment{" "}
               <img className="w-3" src={assets.arrow_icon} alt="" />{" "}
             </Button>
