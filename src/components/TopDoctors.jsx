@@ -1,9 +1,11 @@
-import { doctors } from "@/assets/assets_frontend/assets";
+import { useContext } from "react";
 import { Button } from "./ui/button";
 import { useNavigate } from "react-router-dom";
+import { AppContext } from "@/context/AppContext";
 
 const TopDoctors = () => {
   const navigate = useNavigate();
+  const { doctors } = useContext(AppContext);
   return (
     <div className="mt-20 px-10 sm:px-0 container mx-auto flex flex-col items-center gap-4">
       <h1 className="text-3xl font-semibold text-gray-700">Top Doctors</h1>

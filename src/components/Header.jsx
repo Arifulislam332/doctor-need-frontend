@@ -1,6 +1,5 @@
 import { assets } from "@/assets/assets_frontend/assets";
 import { Button } from "./ui/button";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -18,15 +17,15 @@ const Header = () => {
               ex voluptates aperiam consequatur ratione
             </p>
           </div>
-          <Link
+          <a
             className="transition duration-300 ease-in-out hover:scale-105"
-            to="/#speciality"
+            href="/#speciality"
           >
             <Button className="rounded-full flex gap-2 items-center bg-white text-black sm:text-xl text-sm font-semibold hover:bg-white">
               Book Appoinment{" "}
               <img className="w-3" src={assets.arrow_icon} alt="" />{" "}
             </Button>
-          </Link>
+          </a>
         </div>
 
         {/* -------- RIGHT SIDE-------- */}
