@@ -21,7 +21,7 @@ const Header = () => {
             className="transition duration-300 ease-in-out hover:scale-105"
             href="/#speciality"
           >
-            <Button className="rounded-full flex gap-2 items-center bg-white text-black sm:text-xl text-sm font-semibold hover:bg-white">
+            <Button className="rounded-full flex gap-2 items-center bg-white text-gray-600 sm:text-xl text-sm font-semibold hover:bg-white">
               Book Appoinment{" "}
               <img className="w-3" src={assets.arrow_icon} alt="" />{" "}
             </Button>
